@@ -1,0 +1,7 @@
+const { peter, john } = require('./names.js')
+const sayHi = require('./utils.js')
+const grenade = require('./grenade')
+console.log(grenade)
+sayHi(john)
+sayHi(peter)
+sayHi('susan')
